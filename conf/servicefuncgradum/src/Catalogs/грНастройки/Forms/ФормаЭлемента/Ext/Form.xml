@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<CheckBoxField name="ЗначениеСписком" id="7">
+			<DataPath>Объект.ЗначениеСписком</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗначениеСпискомКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ЗначениеСпискомРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">ЗначениеСпискомПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<InputField name="Значение" id="10">
+			<DataPath>Объект.Значение</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЗначениеКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="OnChange">ЗначениеПриИзменении</Event>
+			</Events>
+		</InputField>
+		<Table name="Значения" id="13">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Значения</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЗначенияКонтекстноеМеню" id="14"/>
+			<AutoCommandBar name="ЗначенияКоманднаяПанель" id="15"/>
+			<ExtendedTooltip name="ЗначенияРасширеннаяПодсказка" id="16"/>
+			<SearchStringAddition name="ЗначенияСтрокаПоиска" id="17">
+				<AdditionSource>
+					<Item>Значения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗначенияСтрокаПоискаКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ЗначенияСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЗначенияСостояниеПросмотра" id="20">
+				<AdditionSource>
+					<Item>Значения</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗначенияСостояниеПросмотраКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ЗначенияСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЗначенияУправлениеПоиском" id="23">
+				<AdditionSource>
+					<Item>Значения</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗначенияУправлениеПоискомКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ЗначенияУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ЗначенияНомерСтроки" id="26">
+					<DataPath>Объект.Значения.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗначенияНомерСтрокиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ЗначенияНомерСтрокиРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<InputField name="ЗначенияЗначение" id="29">
+					<DataPath>Объект.Значения.Значение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗначенияЗначениеКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЗначенияЗначениеРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">ЗначенияЗначениеПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Комментарий" id="32">
+			<DataPath>Объект.Комментарий</DataPath>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="34"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.грНастройки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<Columns>
+				<AdditionalColumns table="Объект.Значения"/>
+			</Columns>
+		</Attribute>
+	</Attributes>
+</Form>
