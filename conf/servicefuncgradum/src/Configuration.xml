@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Градум</Vendor>
-			<Version>1.0.0.1</Version>
+			<Version>1.0.0.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -214,6 +214,7 @@
 			<CommonModule>грОбщегоНазначения</CommonModule>
 			<Catalog>грНастройки</Catalog>
 			<DataProcessor>грХранилищеРасширений</DataProcessor>
+			<DataProcessor>грОбновлениеВерсииИБ</DataProcessor>
 			<InformationRegister>грРасширенияКонфигурации</InformationRegister>
 		</ChildObjects>
 	</Configuration>
