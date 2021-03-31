@@ -43,7 +43,7 @@
 
 ## Размещение подсистемы
 
-* [Файл конфигурации](/conf/servicefuncgradum/src)
+* [Файл конфигурации](/conf/servicefuncgradum/bin)
 * [Исходные файлы](/conf/servicefuncgradum/src)
 
 
