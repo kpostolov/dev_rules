@@ -1,26 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
-	<Subsystem uuid="88e19f29-78af-41c3-8e8a-42afa9840881">
+	<DataProcessor uuid="0adbeab1-285e-4e0d-a505-9843812f2c67">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.грОбновлениеВерсииИБ" category="Object">
+				<xr:TypeId>076f785d-ef18-4203-bb52-16b74bd6495e</xr:TypeId>
+				<xr:ValueId>8cc900c0-14b4-4d3c-a1be-db5ed43267e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.грОбновлениеВерсииИБ" category="Manager">
+				<xr:TypeId>396428c8-68bd-47a7-8382-a1648206752e</xr:TypeId>
+				<xr:ValueId>d629f307-3877-4ce4-937b-a26437dfc4f8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>грДобавленныеОбъекты</Name>
+			<Name>грОбновлениеВерсииИБ</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Добавленные объекты (Градум)</v8:content>
+					<v8:content>Обновление версии ИБ (Градум)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
 			<Explanation/>
-			<Picture/>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.грХранилищеРасширений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.грРасширенияКонфигурации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.грПодпискиНаСобытия</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.грОбновлениеВерсииИБ</xr:Item>
-			</Content>
 		</Properties>
 		<ChildObjects/>
-	</Subsystem>
+	</DataProcessor>
 </MetaDataObject>

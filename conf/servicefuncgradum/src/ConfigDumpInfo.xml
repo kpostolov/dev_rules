@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
 	<ConfigVersions>
-		<Metadata name="Catalog.грНастройки" id="476c570a-c817-4e6a-8356-db7f2795dbe2" configVersion="c0439eb521edc043b0321a656f97f6c300000000">
+		<Metadata name="Catalog.грНастройки" id="476c570a-c817-4e6a-8356-db7f2795dbe2" configVersion="70cc559cd59d024491f8f4a19866a75f00000000">
 			<Metadata name="Catalog.грНастройки.TabularSection.Значения.Attribute.Значение" id="3c5555ba-ce3b-4c5f-9a18-9fa6bc487ed1"/>
 			<Metadata name="Catalog.грНастройки.TabularSection.Значения" id="85425136-8631-46ba-8e82-b7d5a0c536e3"/>
 			<Metadata name="Catalog.грНастройки.Attribute.Значение" id="a4dd9d80-4bd3-4a8c-a855-22503a3c0170"/>
@@ -14,17 +14,18 @@
 		<Metadata name="Catalog.грНастройки.Form.ФормаСписка.Form" id="28834310-ec10-404c-b540-d6514de8d184.0" configVersion="71359c0517b14049bccb6fd612f2609c00000000"/>
 		<Metadata name="Catalog.грНастройки.Form.ФормаЭлемента" id="901a4889-df1e-4b7d-8796-5b08a3b92f0f" configVersion="47714372c20401429fadee008dfc7ac100000000"/>
 		<Metadata name="Catalog.грНастройки.Form.ФормаЭлемента.Form" id="901a4889-df1e-4b7d-8796-5b08a3b92f0f.0" configVersion="f913288cdf0a7544978fe74fe3ae230300000000"/>
-		<Metadata name="Catalog.грНастройки.ManagerModule" id="476c570a-c817-4e6a-8356-db7f2795dbe2.3" configVersion="e97c31adbda9fc41abc2bb9ea4c2ee0800000000"/>
+		<Metadata name="Catalog.грНастройки.ManagerModule" id="476c570a-c817-4e6a-8356-db7f2795dbe2.3" configVersion="7bf7aeddc4be534fbaa625d687b886ba00000000"/>
 		<Metadata name="Catalog.грНастройки.ObjectModule" id="476c570a-c817-4e6a-8356-db7f2795dbe2.0" configVersion="2acef7fbf4c3044a86f7e5d1260642ff00000000"/>
 		<Metadata name="Catalog.грНастройки.Predefined" id="476c570a-c817-4e6a-8356-db7f2795dbe2.1c" configVersion="8f0dac64baca18418ea8a48cfa6c515a00000000"/>
 		<Metadata name="CommonModule.грОбщегоНазначения" id="799cfe25-fc75-4102-a2bd-b6fd91c9322b" configVersion="435cf1f47800e545a20f30403d85dfda00000000"/>
 		<Metadata name="CommonModule.грОбщегоНазначения.Module" id="799cfe25-fc75-4102-a2bd-b6fd91c9322b.0" configVersion="4be3a995d7d0c547b29209fd61d9a6a300000000"/>
 		<Metadata name="CommonModule.грПодпискиНаСобытия" id="6535c31a-ed53-44a5-95fa-a5df9b50eef9" configVersion="c26e9e349455db4bbef9a0780135408e00000000"/>
 		<Metadata name="CommonModule.грПодпискиНаСобытия.Module" id="6535c31a-ed53-44a5-95fa-a5df9b50eef9.0" configVersion="7e685b3acc8e784481d694f2db53060400000000"/>
-		<Metadata name="CommonModule.грУправлениеНастройками" id="4e11ccec-a813-43ea-8860-fc8cd2783fdf" configVersion="fc38371a5c42b3408f1486a912e5bd2100000000"/>
-		<Metadata name="CommonModule.грУправлениеНастройками.Module" id="4e11ccec-a813-43ea-8860-fc8cd2783fdf.0" configVersion="ca0e5c285c9cf2468a28023d9a1e706e00000000"/>
-		<Metadata name="Configuration.СлужебныеФункцииГрадум" id="ce48e76b-8001-4a23-bc95-41c0c973ba6d" configVersion="26c814900fae754a8daec17a8787793600000000"/>
+		<Metadata name="CommonModule.грУправлениеНастройками" id="4e11ccec-a813-43ea-8860-fc8cd2783fdf" configVersion="49e262cd54cfad48a227bbaf08af6be800000000"/>
+		<Metadata name="CommonModule.грУправлениеНастройками.Module" id="4e11ccec-a813-43ea-8860-fc8cd2783fdf.0" configVersion="b1810bc6fd6b534c93024468664b518b00000000"/>
+		<Metadata name="Configuration.СлужебныеФункцииГрадум" id="ce48e76b-8001-4a23-bc95-41c0c973ba6d" configVersion="f79e31418f68364e841b1e13c47f8b7d00000000"/>
 		<Metadata name="Configuration.СлужебныеФункцииГрадум.ParentConfigurations" id="41e4d01c-344e-4939-bac8-bc68d3dfc74d.4" configVersion="156f4fc05328494096217bb1b0edfa7d00000000"/>
+		<Metadata name="DataProcessor.грОбновлениеВерсииИБ" id="0adbeab1-285e-4e0d-a505-9843812f2c67" configVersion="2b616704b7453942ba960aa0baaae2ed00000000"/>
 		<Metadata name="DataProcessor.грХранилищеРасширений" id="8be3e86f-ad06-449a-9e68-d597f3fa1bcb" configVersion="02df431d34d59f47a4fee71246cbe60f00000000"/>
 		<Metadata name="DataProcessor.грХранилищеРасширений.Form.Форма" id="987894bb-e02c-443c-97c4-76fd27fbd4d5" configVersion="8143b2a5dcb63349bd608944811e536b00000000"/>
 		<Metadata name="DataProcessor.грХранилищеРасширений.Form.Форма.Form" id="987894bb-e02c-443c-97c4-76fd27fbd4d5.0" configVersion="58ff6895448cf54cb2f23b251b5ad01500000000"/>
@@ -34,12 +35,12 @@
 			<Metadata name="InformationRegister.грРасширенияКонфигурации.Resource.ХешСумма" id="f6bc251f-be1b-4f82-a85d-c83eb93a4410"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="3a45d66a-7c21-49ef-91e5-f617004ac481" configVersion="4ece59d6378b024fb2ffacd34f2b271200000000"/>
-		<Metadata name="Role.грБазовыеПрава" id="b8af9df5-ec6b-40df-9b5c-1a5840f570c4" configVersion="cc4904625efdee448ea042de3877012000000000"/>
-		<Metadata name="Role.грБазовыеПрава.Rights" id="b8af9df5-ec6b-40df-9b5c-1a5840f570c4.0" configVersion="be3239671bb9ec418f46f81336327b9300000000"/>
+		<Metadata name="Role.грБазовыеПрава" id="b8af9df5-ec6b-40df-9b5c-1a5840f570c4" configVersion="adfb3913b5bf1f4ca3302f76c3e5b3fd00000000"/>
+		<Metadata name="Role.грБазовыеПрава.Rights" id="b8af9df5-ec6b-40df-9b5c-1a5840f570c4.0" configVersion="731eb4b13beb39448c5d0d52ed0262ef00000000"/>
 		<Metadata name="Role.грУправлениеНастройками" id="4510fc1c-f71f-49e1-8563-e1a8685ee578" configVersion="3dca462a38ca16448b377d3cf5c9286800000000"/>
 		<Metadata name="Role.грУправлениеНастройками.Rights" id="4510fc1c-f71f-49e1-8563-e1a8685ee578.0" configVersion="6e0562964da5b143befcaec66be50f5e00000000"/>
 		<Metadata name="Subsystem.грГрадум" id="07c80793-38bf-4c6f-8283-28af2d8c2a09" configVersion="e744272f5e76664691dcbfc0298ddbab00000000"/>
-		<Metadata name="Subsystem.грГрадум.Subsystem.грДобавленныеОбъекты" id="88e19f29-78af-41c3-8e8a-42afa9840881" configVersion="ed135765eaaa0e41a957ac8cbf703c8400000000"/>
+		<Metadata name="Subsystem.грГрадум.Subsystem.грДобавленныеОбъекты" id="88e19f29-78af-41c3-8e8a-42afa9840881" configVersion="e140db4ff4bb9d4b845afb72e876299200000000"/>
 		<Metadata name="Subsystem.грГрадум.Subsystem.грИзмененныеОбъекты" id="0aea45f5-c2e5-4878-ad75-5e7d1525118a" configVersion="d02741c85166bf4f8ff1d82e05bf040100000000"/>
 		<Metadata name="Subsystem.грГрадум.Subsystem.грНастройки" id="aaf6c9a8-e0a8-4482-8853-46f2ce3d01ce" configVersion="b1dfa74c4c6b0c4182f130519eea16f300000000"/>
 		<Metadata name="Subsystem.грГрадум.Subsystem.грРасширения" id="cd2894a4-d391-469a-b884-ea1156e6f744" configVersion="e3d123b53136e440a42e44806d0fc59600000000"/>
