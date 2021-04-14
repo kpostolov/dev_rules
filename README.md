@@ -10,4 +10,4 @@
 * [Шаблоны разработки](doc/devpatterns.md)
 * [Применение расширений](/doc/useexts.md)
 * [Подсистема "Служебные функции Градум"](/doc/subsysfunc.md)
-
+* [Docx-файл "Стандарты разработки для внешних подрядчиков" (упрощен и очищен от упоминаний "Градум")](/doc/docx/Development_Standards_for_External_Performers.docx)
