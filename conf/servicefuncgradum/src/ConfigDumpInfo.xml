@@ -17,13 +17,13 @@
 		<Metadata name="Catalog.грНастройки.ManagerModule" id="476c570a-c817-4e6a-8356-db7f2795dbe2.3" configVersion="7bf7aeddc4be534fbaa625d687b886ba00000000"/>
 		<Metadata name="Catalog.грНастройки.ObjectModule" id="476c570a-c817-4e6a-8356-db7f2795dbe2.0" configVersion="2acef7fbf4c3044a86f7e5d1260642ff00000000"/>
 		<Metadata name="Catalog.грНастройки.Predefined" id="476c570a-c817-4e6a-8356-db7f2795dbe2.1c" configVersion="8f0dac64baca18418ea8a48cfa6c515a00000000"/>
-		<Metadata name="CommonModule.грОбщегоНазначения" id="799cfe25-fc75-4102-a2bd-b6fd91c9322b" configVersion="435cf1f47800e545a20f30403d85dfda00000000"/>
+		<Metadata name="CommonModule.грОбщегоНазначения" id="799cfe25-fc75-4102-a2bd-b6fd91c9322b" configVersion="be4672006a355249bab88889f6b0779700000000"/>
 		<Metadata name="CommonModule.грОбщегоНазначения.Module" id="799cfe25-fc75-4102-a2bd-b6fd91c9322b.0" configVersion="4be3a995d7d0c547b29209fd61d9a6a300000000"/>
 		<Metadata name="CommonModule.грПодпискиНаСобытия" id="6535c31a-ed53-44a5-95fa-a5df9b50eef9" configVersion="c26e9e349455db4bbef9a0780135408e00000000"/>
 		<Metadata name="CommonModule.грПодпискиНаСобытия.Module" id="6535c31a-ed53-44a5-95fa-a5df9b50eef9.0" configVersion="7e685b3acc8e784481d694f2db53060400000000"/>
 		<Metadata name="CommonModule.грУправлениеНастройками" id="4e11ccec-a813-43ea-8860-fc8cd2783fdf" configVersion="49e262cd54cfad48a227bbaf08af6be800000000"/>
 		<Metadata name="CommonModule.грУправлениеНастройками.Module" id="4e11ccec-a813-43ea-8860-fc8cd2783fdf.0" configVersion="b1810bc6fd6b534c93024468664b518b00000000"/>
-		<Metadata name="Configuration.СлужебныеФункцииГрадум" id="ce48e76b-8001-4a23-bc95-41c0c973ba6d" configVersion="f79e31418f68364e841b1e13c47f8b7d00000000"/>
+		<Metadata name="Configuration.СлужебныеФункцииГрадум" id="ce48e76b-8001-4a23-bc95-41c0c973ba6d" configVersion="ae0fe2f7647d444cb6dc93028b7cabdf00000000"/>
 		<Metadata name="Configuration.СлужебныеФункцииГрадум.ParentConfigurations" id="41e4d01c-344e-4939-bac8-bc68d3dfc74d.4" configVersion="156f4fc05328494096217bb1b0edfa7d00000000"/>
 		<Metadata name="DataProcessor.грОбновлениеВерсииИБ" id="0adbeab1-285e-4e0d-a505-9843812f2c67" configVersion="2b616704b7453942ba960aa0baaae2ed00000000"/>
 		<Metadata name="DataProcessor.грХранилищеРасширений" id="8be3e86f-ad06-449a-9e68-d597f3fa1bcb" configVersion="02df431d34d59f47a4fee71246cbe60f00000000"/>
