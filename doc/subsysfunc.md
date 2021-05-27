@@ -43,7 +43,7 @@
 
 ## Размещение подсистемы
 
-* [Файл конфигурации](/conf/servicefuncgradum/bin)
+* [Файл конфигурации](/conf/servicefuncgradum/src/Ext/ParentConfigurations)
 * [Исходные файлы](/conf/servicefuncgradum/src)
 
 
